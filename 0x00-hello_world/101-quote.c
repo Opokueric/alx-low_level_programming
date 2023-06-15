@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include <uinstd.h>
+#include <unistd.h>
 
 /**
  * main- Nothing to show, header
@@ -15,7 +15,7 @@ int main(void)
 	int s;
 
 	s = strlen("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
-	write(Display,
+	write(3,
 		"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", s);
 	return (1);
 }
