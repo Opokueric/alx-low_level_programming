@@ -13,8 +13,8 @@ void print_numbers(void)
 
 	while (x < 58)
 	{
-		_putchar(c);
-		c++;
+		_putchar(x);
+		x++;
 	}
 	_putchar('\n');
 }
