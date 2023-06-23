@@ -17,7 +17,7 @@ int main(void)
 		max = 2;
 		x /= 2;
 	}
-	while (y <= sqrt(n))
+	while (y <= sqrt(x))
 	{
 		while (x % y == 0)
 		{
