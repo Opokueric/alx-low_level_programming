@@ -11,7 +11,7 @@ char *string_toupper(char *p)
 {
 	int x = 0;
 
-	while (p[i] != '\0')
+	while (p[x] != '\0')
 	{
 		if (p[x] > 96 && p[x] < 123)
 			p[x] -= 32;
